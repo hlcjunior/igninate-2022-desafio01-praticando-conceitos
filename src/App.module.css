@@ -1,0 +1,67 @@
+.newTodoContent {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+
+  height: 3.375rem;
+  top: 10.8rem;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tasksContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 46rem;
+
+  margin: 0 auto;
+  margin-top: 5.68rem;
+}
+
+.tasksHeader {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  padding-bottom: 1.5rem;
+
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.tasksHeader span {
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  font-weight: 700;
+  font-size: 0.75rem;
+
+  padding: 0.125rem 0.5rem;
+  border-radius: 62.43rem;
+}
+
+.tasksDone {
+  color: var(--purple);
+}
+
+.noTasks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--gray-300);
+
+  line-height: 1.4rem;
+
+  padding-top: 4rem;
+}
+
+.noTasks img {
+  padding-bottom: 1rem;
+}
