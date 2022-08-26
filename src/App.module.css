@@ -162,10 +162,6 @@
   margin-bottom: 0.75rem;
 }
 
-.tasks li label {
-  text-decoration: line-through;
-}
-
 .tasks li input[type='checkbox'] {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -195,6 +191,10 @@
   background-color: var(--purple-dark);
 }
 
+.tasks li input[type='checkbox']:checked + label {
+  text-decoration: line-through;
+}
+
 .tasks li input[type='checkbox']:checked:hover {
   border: 1px solid var(--purple);
   background-color: var(--purple);
@@ -205,7 +205,7 @@
   display: block;
   text-align: center;
   position: relative;
-  top: 0.04rem;
+  top: 0.03rem;
 }
 
 .tasks li button {
